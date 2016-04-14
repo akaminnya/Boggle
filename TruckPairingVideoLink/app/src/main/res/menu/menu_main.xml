@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.daimler.videolink.truckpairingvideolink.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_add"
+        android:title="Add"
+        android:icon="@drawable/ic_action_fab"
+        android:orderInCategory="110"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/action_search"
+        android:title="Search"
+        android:icon="@drawable/ic_action_search"
+        android:orderInCategory="120"
+        app:showAsAction="always" />
+
+
+</menu>
